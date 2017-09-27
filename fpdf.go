@@ -3936,3 +3936,8 @@ func (f *Fpdf) arc(x, y, rx, ry, degRotate, degStart, degEnd float64,
 		f.out("Q")
 	}
 }
+
+
+func (f *Fpdf) SetPage(page int) {
+	f.page = page
+}
